@@ -1,5 +1,5 @@
 $(document).ready(function() {
-var TMR = 0, myDate = '23.08.2016 12:00:00';
+var TMR = 0, myDate = '23.08.2016 00:00:00';
  
 onload = function ()
 {
@@ -12,7 +12,7 @@ setInterval (function ()
  
      T     = [],                  C     = [];
      T [0] =           b [2],     C [0] = d.getFullYear (),  
-     T [1] =           b [1] - 1, C [1] = d.getMonth    (),      
+     T [1] =           b [1] - 1 , C [1] = d.getMonth    (),      
      T [2] = parseInt (b [0])   , C [2] = d.getDate     (),       
      T [3] = parseInt (c [0])   , C [3] = d.getHours    (),      
      T [4] = parseInt (c [1])   , C [4] = d.getMinutes  (),      

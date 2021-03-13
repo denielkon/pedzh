@@ -1,8 +1,7 @@
 $(document).ready(function() {
 var TMR = 0, myDate = '23.08.2016 00:00:00';
  
-onload = function ()
-{
+
 setInterval (function ()
    {
    var a = myDate.split (' '),
@@ -42,5 +41,5 @@ setInterval (function ()
       }
    TMR = 1000;
    }, TMR);
-}
+
 });
